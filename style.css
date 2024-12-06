@@ -155,6 +155,9 @@ select {
     border: none;
     padding: 0.7rem 1rem;
     cursor: pointer;
+    z-index: -1;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .search-bar button img {
